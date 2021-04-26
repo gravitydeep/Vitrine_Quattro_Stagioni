@@ -7,7 +7,7 @@
 
 html {
     width: 100%;
-    background-image: url("/assets/img/marble-background2.jpeg");
+    background-image: url("../../assets/img/marble-background2.jpeg");
     font-family: 'Kiwi Maru', serif;
 }
 
@@ -181,7 +181,11 @@ h1 {
 .bordure {
     border: 1px grey solid; 
     border-radius: 5%;
-    margin-bottom: 10px;
+    margin: 10px 0px;
+}
+
+.titre1 {
+    text-align: center;
 }
 
 .img_nav{
