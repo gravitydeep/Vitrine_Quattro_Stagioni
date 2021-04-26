@@ -42,7 +42,7 @@ html,body{
 }
 .boisson{
     background-image: url("../img/Vin_accueil.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
