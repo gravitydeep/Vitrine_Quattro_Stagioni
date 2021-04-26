@@ -32,3 +32,16 @@
     width: 150px;
     }
 }
+
+/* Général */
+body {
+    font-size: 11px;
+    background-image: url(/assets/img/marble-background2.jpeg);
+    font-family: 'Kiwi Maru', serif;
+}
+
+.navbar-brand h1 {
+    display: inline;
+    margin: 0 2em;
+    font-size: 1em;
+}
