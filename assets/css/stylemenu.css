@@ -1,0 +1,25 @@
+body {
+    background-image: url("images/marble-background2.jpeg");
+    font-family: 'Kiwi Maru', serif;
+    font-size: 11px;
+}
+
+.my-6 {
+    margin: 2em 0;
+}
+
+main li {
+    font-size: 1.4em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
