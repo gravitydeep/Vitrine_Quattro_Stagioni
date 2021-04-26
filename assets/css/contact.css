@@ -1,0 +1,45 @@
+/*
+ * CSS file : 'header.css' must be included before this curent one...
+ */
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("/assets/img/marble-background2.jpeg");
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+}
+.screen{
+  width: 100%;
+}
+@media (min-width:480px) {
+  .screen{
+    width:70%;
+    
+  }
+}
+@media (min-width:768px) {
+  .screen{
+    width:70%;
+  }
+}
+@media (max-width:992px) {
+  #text{
+    text-align: center;
+  }
+}
+
+@media (min-width:992px) {
+  .screen{
+    width: 80%;
+  }
+}
+@media (min-width:1200px) {
+  .screen{
+    width: 60%;
+  }
+}
+
+
+
+
+
