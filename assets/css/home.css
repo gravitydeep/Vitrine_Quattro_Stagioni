@@ -1,0 +1,130 @@
+html,body{
+    height: 100vh;
+    background-image: url("../img/marble-background2.jpeg");
+    font-family: 'Kiwi Maru', serif;
+    font-size: 11px; 
+}
+
+/* NavBar */
+.navdrop{
+    font-size: 2em;
+}
+
+.img_acc{
+    width: 15rem;
+}
+
+.parent{
+    list-style: none;
+    display: flex;
+}
+/* Réglage des images */
+.img {
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.entree{
+    background-image: url("../img/Entree_accueil.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.plat{
+    background-image: url("../img/Plat_accueil.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.dessert{
+    background-image: url("../img/Tiramisu_accueil.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.boisson{
+    background-image: url("../img/Vin_accueil.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* réglage du conteneur */
+.list {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* DEBUT EFFET FADE */
+/* Conteneur pour chaque img + lien */
+.fadecont {
+    margin: 0 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+/* Conteneur de chaque Lien */
+.fadep {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: opacity .5s ease-in-out;
+}
+
+/* Action quand souris passe dessus */
+.fadep:hover {
+    opacity: 1;
+}
+
+/* Réglage texte */
+.text {
+    color: #FFF;
+    font-size: 1.7rem;
+}
+/* FIN EFFET FADE */
+
+.img_nav{
+    width: 80px;
+}
+
+@media (min-width:768px) {
+    .img_nav{
+        width: 100px;
+    }
+    /* Réglage des images */
+    .img {
+        
+        height: 420px;
+    }
+}
+
+@media (min-width:1024px) {
+    .img_nav{
+        width: 120px;
+    }
+    /* Réglage des images */
+    .img {
+        
+        height: 420px;
+    }
+
+}
+@media (min-width:1200px) {
+    .img_nav{
+        width: 150px;
+    }
+    /* Réglage des images */
+    .img {
+       
+        height: 420px;
+    }
+}
+
