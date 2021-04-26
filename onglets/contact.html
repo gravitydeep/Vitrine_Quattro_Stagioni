@@ -5,45 +5,69 @@
         <title>Contact</title>
 		<meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<link rel="stylesheet" type="text/css" href="contact.css" media="screen">
         <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
-    
+        <link rel="stylesheet" type="text/css" href="/assets/css/contact.css" media="screen">
+        <link rel="stylesheet" href="/assets/css/media.css">
 	</head>
 	<body>
         <!-- common header -->
-        <div class="header-flex">
-            <nav class="header-item">
-                <ul>
-                    <li><img width="226" height="206" src="images/Logo_resto_Quattro_Stagioni2.png" alt="logo restaurant"></li>
-                    <li><a href="Index.html">Accueil</a></li>
-                    <li><a href="apropos.html">A propos</a></li>
-                    <li class="deroulant">
-                        Nos plats
-                        <ul class="sous_menu">
-                            <li><a href="specialites.html">Spécialités</a></li>
-                            <li><a href="carte.html">Menu</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>               
-        </div>
-        <div class="separator"></div>
+        
         <!-- specific content -->
-        <div class="contact-flex">
-            <div class="contact-item">
-                <img src="images/notre_carte.jpg" width="474" height="407" titre="carte" alt="carte">
-            </div>
-            <div class="contact-item">
-                <p><span style="font-weight: bold;">adresse:</span> 143, rue Yves Le Coz - Versaille 78000</p>
-                <p><span style="font-weight: bold;">tel:</span> 0123456789</p>
-                <br>
-                <img  src="images/facebook.webp" width="40" height="40" titre="facebook" alt="facebook">
-                <img  src="images/twitter.webp" width="40" height="40" titre="twitter" alt="twitter">
-                <img  src="images/snapshat.jpg" width="40" height="40" titre="snapshat" alt="snapshat">
+        <div id="map" class="container-fluid h-100">
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-transparent">
+                <a class="navbar-brand" href="index.html"><img class="img_nav"src="../assets/img/Logo_resto_Quattro_Stagioni2.png"
+                width="80px" alt=""> Accueil</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item active">
+                <a class="nav-link" href="onglets/apropos.html">A propos</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Nos plats
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item navdrop" href="onglets/specialites.html">Spécialités</a>
+                <a class="dropdown-item navdrop" href="onglets/menu.html">Menu</a>
+                </div>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                </ul>
+                </div>
+            </nav>
+            <!-- debut contact -->
+            <div class="row align-items-center ">
+                <div class="col-12 col-xl-6 p-0 text-md-center">
+                    <div   class="map p-0 d-flex w-100 justify-content-center">
+                        <img class="align-self screen" src="/assets/img/notre_carte.jpg"  titre="carte" alt="carte">
+                    </div>
+                </div>
+                <div id="text"class="col-12 col-xl-6 text-center">
+                    <div class="contact-item mt-10">
+                        <p><span>adresse: </span>143, rue Yves Le Coz - Versaille 78000</p>
+                        <p><span>tel: </span> 0123456789</p>
+                    </div>
+                    <div class="mt-lg-5">
+                    <img  src="/assets/img/facebook.webp" width="40" height="40" titre="facebook" alt="facebook">
+                    <img  src="/assets/img/twitter.webp" width="40" height="40" titre="twitter" alt="twitter">
+                    <img  src="/assets/img/snapshat.jpg" width="40" height="40" titre="snapshat" alt="snapshat">
+                    </div>
+                </div>
             </div>
         </div>
-   </body>
+            <!-- fin contact -->
+        
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    </body>
 </html>

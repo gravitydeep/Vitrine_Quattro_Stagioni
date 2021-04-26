@@ -1,0 +1,34 @@
+@media (min-width:768px) {
+    body{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1024px) {
+    body{
+        font-size: 20px;
+    }
+}
+@media (min-width:1200px) {
+    body{
+        font-size: 20px;
+    }
+}
+.img_nav{
+    width: 80px;
+    }
+    @media (min-width:768px) {
+    .img_nav{
+    width: 100px;
+    }
+}
+    @media (min-width:1024px) {
+    .img_nav{
+    width: 120px;
+    }
+}
+    @media (min-width:1200px) {
+    .img_nav{
+    width: 150px;
+    }
+}
