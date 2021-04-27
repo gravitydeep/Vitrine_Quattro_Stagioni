@@ -29,3 +29,25 @@ nav li{
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0);
 }
+
+/* Réglage image navbar */
+.img_nav{
+    width: 80px;
+}
+
+@media (min-width:768px) {
+    .img_nav{
+        width: 100px;
+    }
+}
+
+@media (min-width:1024px) {
+    .img_nav{
+        width: 120px;
+    }
+}
+@media (min-width:1200px) {
+    .img_nav{
+        width: 150px;
+    }
+}
