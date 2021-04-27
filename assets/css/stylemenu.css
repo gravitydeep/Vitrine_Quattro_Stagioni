@@ -13,6 +13,10 @@ main {
     margin: 2rem 0;
 }
 
+li{
+    font-size: 1.1rem;
+}
+
 h1 {
     font-size: 1.7rem;
 }
@@ -25,40 +29,45 @@ h3 {
     font-size: 1.3rem;
 }
 
-.conteneur img {
-	position:absolute;
-	left:0;
-    margin:auto;
-    border: 2px solid black;
-}
 
-@keyframes fondu-in-out {
+@keyframes fade {
     0%    { opacity:1; }
     25%   { opacity:1; }
     75%   { opacity:0; }
     100%  { opacity:0; }
 }
-.conteneur .image-de-dessus {
-    animation-name: fondu-in-out;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-    animation-duration: 5s;
-    animation-direction: alternate;
-}
-
 .conteneur{
-    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.parents{
+    background-image: url("../img/carte.jpg");
+    background-size: contain;
+    width: 50%;
+    
 }
 
-@media (max-width: 991px) {
-    .conteneur {
-        height: 40em;
+.child{
+    width: 100%;
+    animation: fade 4s infinite alternate;
+}
+
+@media (min-width:768px) {
+    .parents{
+        width: 50%;
     }
 }
 
-@media (min-width: 992px) {
-    .conteneur {
-        margin-left: 5%;
-        margin-top: 4%;
+@media (min-width:1024px) {
+    .parents{
+        width: 60%;
     }
 }
+
+@media (min-width:1200px) {
+    .parents{
+        width: 100%;
+    }
+}
+
