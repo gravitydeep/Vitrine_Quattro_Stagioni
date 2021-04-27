@@ -1,34 +1,38 @@
+                        /* media pour la barre  de navigation */
+.img_nav {
+    width: 80px;
+}
 @media (min-width:768px) {
-    body{
-        font-size: 20px;
+    .img_nav {
+        width: 100px;
     }
 }
-
 @media (min-width:1024px) {
-    body{
-        font-size: 20px;
+    .img_nav {
+        width: 120px;
     }
 }
 @media (min-width:1200px) {
-    body{
+    .img_nav {
+        width: 150px;
+    }
+}
+                        /* media pour la taille de typo */
+:root {
+    font-size: 13px;
+}
+@media (min-width:768px) {
+    :root {
+        font-size: 14px;
+    }
+}
+@media (min-width:1024px) {
+    :root {
+        font-size: 17px;
+    }
+}
+@media (min-width:1200px) {
+    :root {
         font-size: 20px;
-    }
-}
-.img_nav{
-    width: 80px;
-    }
-    @media (min-width:768px) {
-    .img_nav{
-    width: 100px;
-    }
-}
-    @media (min-width:1024px) {
-    .img_nav{
-    width: 120px;
-    }
-}
-    @media (min-width:1200px) {
-    .img_nav{
-    width: 150px;
     }
 }
