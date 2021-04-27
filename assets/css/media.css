@@ -45,3 +45,13 @@ body {
     margin: 0 2em;
     font-size: 1em;
 }
+
+/* NAV BAR */
+nav li{
+    font-size: 1.3em;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0);
+}
