@@ -17,18 +17,27 @@
         width: 150px;
     }
 }
+/* NAV BAR */
+nav li{
+    font-size: 1.3em;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0);
+}
                         /* media pour la taille de typo */
 :root {
-    font-size: 13px;
+    font-size: 12px;
 }
 @media (min-width:768px) {
     :root {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 @media (min-width:1024px) {
     :root {
-        font-size: 17px;
+        font-size: 18px;
     }
 }
 @media (min-width:1200px) {
