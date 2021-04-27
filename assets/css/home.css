@@ -2,49 +2,32 @@ html,body{
     height: 100vh;
     background-image: url("../img/marble-background2.jpeg");
     font-family: 'Kiwi Maru', serif;
-    font-size: 11px; 
 }
 
-/* NavBar */
-.navdrop{
-    font-size: 2em;
-}
-
-.img_acc{
-    width: 15rem;
-}
-
-.parent{
-    list-style: none;
-    display: flex;
-}
-/* Réglage des images */
-.img {
-    position: relative;
-    width: 100%;
-    height: 250px;
-}
 
 .entree{
     background-image: url("../img/Entree_accueil.jpg");
     background-size: cover;
     background-position: center;
 }
+
 .plat{
     background-image: url("../img/Plat_accueil.jpg");
     background-size: cover;
     background-position: center;
 }
+
 .dessert{
     background-image: url("../img/Tiramisu_accueil.jpg");
     background-size: cover;
     background-position: center;
 }
+
 .boisson{
     background-image: url("../img/Vin_accueil.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
+
 }
 /* réglage du conteneur */
 .list {
@@ -55,6 +38,7 @@ html,body{
     justify-content: center;
     align-items: center;
 }
+
 /* DEBUT EFFET FADE */
 /* Conteneur pour chaque img + lien */
 .fadecont {
@@ -87,44 +71,26 @@ html,body{
 /* Réglage texte */
 .text {
     color: #FFF;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 }
 /* FIN EFFET FADE */
 
-.img_nav{
-    width: 80px;
-}
-
-@media (min-width:768px) {
-    .img_nav{
-        width: 100px;
-    }
-    /* Réglage des images */
-    .img {
-        
-        height: 420px;
-    }
+/* Réglage Image d'accueil */
+.img {
+    position: relative;
+    width: 100%;
+    height: 250px;
 }
 
 @media (min-width:1024px) {
-    .img_nav{
-        width: 120px;
-    }
-    /* Réglage des images */
     .img {
-        
-        height: 420px;
+        width: 70%;
+        height: 500px;
     }
 
-}
-@media (min-width:1200px) {
-    .img_nav{
-        width: 150px;
-    }
-    /* Réglage des images */
-    .img {
-       
-        height: 420px;
+    .fadep{
+        width: 70%;
     }
 }
+
 
