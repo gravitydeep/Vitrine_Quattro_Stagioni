@@ -20,6 +20,8 @@ h1 {
     font-size: 200%;
     font-style: italic;
     margin-bottom: 3%;
+
+    /* A PROPOS */
 }
 
 .bordure {
@@ -42,6 +44,8 @@ h1 {
 .rounded_img {
     border-radius: 50px;
 }
+
+/* A PROPOS */
 
 .img_nav{
     width: 80px;
