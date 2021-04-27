@@ -17,17 +17,20 @@
 <body>
     <div class="container-fluid">
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-transparent mb-5">
-                <a class="navbar-brand" href="index.html"><img src="/assets/img/Logo_resto_Quattro_Stagioni2.png"
-                        width="150px" alt=""> Accueil</a>
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-transparent">
+                <a class="navbar-brand " href="/index.html"><img class="img_nav"
+                        src="assets/img/Logo_resto_Quattro_Stagioni2.png" alt="Logo Quattro Stagioni"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="onglets/apropos.html">A propos</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="apropos.html">A propos</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -35,8 +38,9 @@
                                 Nos plats
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item " href="onglets/specialites.html">Spécialités</a>
-                                <a class="dropdown-item" href="onglets/menu.html">Menu</a>
+                                <a class="dropdown-item navdrop" href="specialites.html">Spécialités</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item navdrop" href="menu.html">Menu</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -50,13 +54,13 @@
         <main>
             <h1 class="text-center mb-5 font-italic">Un aperçu de notre Menu...</h1>
             <div class="row">
-                <div class="col-12 col-lg-3">
-                    <img src="images/carte.jpg" title="carte" alt="couple mangeant au restaurant" width="100%"
+                <div class="col-12 col-lg-3 conteneur">
+                    <img src="/assets/img/carte.jpg" title="carte" alt="couple mangeant au restaurant" width="100%"
                         height="100%">
-                    <img class="image-de-dessus" src="images/1.jpg" title="carte" alt="pizza" width="100%"
+                    <img class="image-de-dessus" src="/assets/img/1.jpg" title="carte" alt="pizza" width="100%"
                         height="100%">
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-3">
                     <h2 class="my-6">Entrées</h2>
                     <ul>
                         <li>Bruschetta Rustico</li>
@@ -92,7 +96,7 @@
                         <li>Limonade Bio de Sicile</li>
                         <li>Evian et San Pellegrino</li>
                     </ul>
-                    <p id="chang" class="font-italic">
+                    <p class="font-italic">
                         La carte change tous les mois en fonction des arrivages et des saisons.
                     </p>
                 </div>
@@ -103,6 +107,13 @@
 
         </footer>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
