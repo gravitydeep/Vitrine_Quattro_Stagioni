@@ -1,29 +1,35 @@
-.my-6 {
-    margin: 2em 0;
+html,
+body {
+    background-image: url("../img/marble-background2.jpeg");
+    font-family: 'Kiwi Maru', serif;
 }
 
-main li {
-    font-size: 1.4em;
+main {
+    height: 100%;
+    width: 100%;
+}
+
+.my-6 {
+    margin: 2rem 0;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 1.7rem;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5rem;
 }
 
 h3 {
-    font-size: 1.8em;
+    font-size: 1.3rem;
 }
 
 .conteneur img {
 	position:absolute;
 	left:0;
+    margin:auto;
     border: 2px solid black;
-    height:45em;
-	width:30em;
 }
 
 @keyframes fondu-in-out {
@@ -46,7 +52,7 @@ h3 {
 
 @media (max-width: 991px) {
     .conteneur {
-        height: 45em;
+        height: 40em;
     }
 }
 
