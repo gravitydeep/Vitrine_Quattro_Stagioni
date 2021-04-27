@@ -1,34 +1,30 @@
+:root{
+    font-size: 14px; 
+}
+
 @media (min-width:768px) {
-    body{
-        font-size: 20px;
+    :root{
+        font-size: 16px;
     }
 }
 
 @media (min-width:1024px) {
-    body{
-        font-size: 20px;
+    :root{
+        font-size: 18px;
     }
 }
 @media (min-width:1200px) {
-    body{
+    :root{
         font-size: 20px;
     }
 }
-.img_nav{
-    width: 80px;
-    }
-    @media (min-width:768px) {
-    .img_nav{
-    width: 100px;
-    }
+
+/* NAV BAR */
+nav li{
+    font-size: 1.3em;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
 }
-    @media (min-width:1024px) {
-    .img_nav{
-    width: 120px;
-    }
-}
-    @media (min-width:1200px) {
-    .img_nav{
-    width: 150px;
-    }
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0);
 }
