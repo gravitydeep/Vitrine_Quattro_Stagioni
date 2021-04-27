@@ -1,3 +1,4 @@
+/* Paramétrages de bases */
 html,body{
     height: 100vh;
     background-image: url("../img/marble-background2.jpeg");
@@ -5,6 +6,7 @@ html,body{
 }
 
 
+/* Réglage images page d'accueil */
 .entree{
     background-image: url("../img/Entree_accueil.jpg");
     background-size: cover;
@@ -29,6 +31,7 @@ html,body{
     background-position: center;
 
 }
+
 /* réglage du conteneur */
 .list {
     margin-top: 50px;
