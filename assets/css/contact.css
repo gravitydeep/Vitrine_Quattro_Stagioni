@@ -4,11 +4,12 @@ body{
     background-image: url("../img/marble-background2.jpeg");
     font-family: 'Kiwi Maru', serif;
 }
-.screen{
+
+ .screen{
   width: 100%;
 }
                             /* media pour la taille de la map */
-@media (min-width:480px) {
+  @media (min-width:480px) {
   .screen{
     width:70%;
     
@@ -30,11 +31,11 @@ body{
   }
 }
                             /* media pour que le texte soit centrer  */
-@media (max-width:992px) {
+  @media (max-width:992px) {
   #text{
     text-align: center;
   }
-}
+} 
 
 
 
