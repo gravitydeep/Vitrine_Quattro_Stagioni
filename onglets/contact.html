@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <title>Contact</title>
     <meta charset="UTF-8">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/contact.css" media="screen">
     <link rel="stylesheet" href="../assets/css/media.css">
 </head>
+
 <body>
     <!-- common header -->
 
@@ -48,13 +50,25 @@
                 </ul>
             </div>
         </nav>
-    <!-- debut contact -->
+        <!-- debut contact -->
 
         <div class="row align-items-center ">
             <div class="col-12 col-xl-6 p-0 text-md-center">
-                <div class="map p-0 d-flex w-100 justify-content-center">
-                    <img class="align-self screen" src="../assets/img/notre_carte.jpg" titre="carte" alt="carte">
-                </div>
+                <div style="width: 700px;position: relative;"><iframe width="700" height="440"
+                        src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Amiens%2C%20France%2Clamanu+(Titre)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <div
+                        style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;">
+                        <small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a
+                                href="http://www.googlemapsgenerator.com/pt/">Googlemapsgenerator.com/pt/</a> & <a
+                                href="https://embedinstagramfeed.com">Embed instagram feed</a></small></div>
+                    <style>
+                        #gmap_canvas img {
+                            max-width: none !important;
+                            background: none !important
+                        }
+                    </style>
+                </div><br />
             </div>
             <div id="text" class="col-12 col-xl-6 text-center">
                 <div class="contact-item mt-5" class="adress">
@@ -64,7 +78,8 @@
                 <div class="mt-lg-5">
                     <img src="../assets/img/facebook.webp" width="40" height="40" titre="facebook" alt="facebook">
                     <img src="../assets/img/twitter.webp" width="40" height="40" titre="twitter" alt="twitter">
-                    <img src="../assets/img/20190808214526!Logo-Snapchat.png" width="40" height="40" titre="snapshat" alt="snapshat">
+                    <img src="../assets/img/20190808214526!Logo-Snapchat.png" width="40" height="40" titre="snapshat"
+                        alt="snapshat">
                 </div>
             </div>
         </div>
@@ -79,4 +94,5 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
 </body>
+
 </html>
